@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lule - Papelería Creativa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="header-title" id="main-title">Lule</h1>
+
+    <div id="menu-principal" class="view-section">
+        <div class="container-menu">
+            <div class="card card-digital" onclick="irA('seccion-diseños')">Diseños Digitales</div>
+            <div class="card card-contacto" onclick="irA('seccion-contacto')">Contáctanos</div>
+            <div class="card card-productos" onclick="irA('seccion-productos')">Productos Terminados</div>
+        </div>
+    </div>
+
+    <div id="seccion-contacto" class="view-section hidden interior-container">
+        <button class="btn-volver" onclick="volver()">← Volver</button>
+        <h2 class="subtitulo">¡Hablemos de tu idea!</h2>
+        <div class="opciones-flotantes">
+            <a href="https://wa.me/qr/6XRJT3CUKQ4VA1" target="_blank" class="btn-red-social bg-whatsapp">WhatsApp</a>
+            <a href="https://www.instagram.com/eadrirojas?igsh=MXRjNWtmZmZucWtybw==" target="_blank" class="btn-red-social bg-instagram">Instagram</a>
+        </div>
+    </div>
+
+    <div id="seccion-productos" class="view-section hidden interior-container">
+        <button class="btn-volver" onclick="volver()">← Volver</button>
+        <h2 class="subtitulo">Nuestros Trabajos Reales</h2>
+        
+        <div class="productos-grid">
+            <div class="maxi-card">
+                <div class="foto-producto" style="background-color: var(--pastel-rosa);">📔</div>
+                <div class="info-producto">
+                    <h3>Agendas Personalizadas</h3>
+                    <p>Encuadernación artesanal con detalles en foil.</p>
+                </div>
+            </div>
+            <div class="maxi-card">
+                <div class="foto-producto" style="background-color: var(--pastel-azul);">🎁</div>
+                <div class="info-producto">
+                    <h3>Cajas para Eventos</h3>
+                    <p>Candy bar de lujo y papelería creativa.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="seccion-diseños" class="view-section hidden interior-container">
+        <button class="btn-volver" onclick="volver()">← Volver</button>
+        <h2 class="subtitulo">Plantillas y Recursos Digitales</h2>
+        <p>Próximamente catálogo completo de archivos descargables.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
